@@ -1,5 +1,5 @@
 <?php
-$servername = "sql101.infinityfree.com"; // use the host given in your MySQL settings
+$servername = "sql101.infinityfree.com";
 $username = "if0_40009151";
 $password = "EduNest25";
 $dbname = "if0_40009151_wandergo_db";
