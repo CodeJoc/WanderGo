@@ -1,19 +1,12 @@
 <?php
+$servername = "sql101.infinityfree.com"; // use the host given in your MySQL settings
+$username = "if0_40009151";
+$password = "EduNest25";
+$dbname = "if0_40009151_wandergo_db";
 
-$server = "localhost";
-$port = "3307";
-$username = "root";
-$password = "";
-$dbname = "ToursandTravels";
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 
-// Attempt to connect to the MySQL database on the specified port
-$conn = mysqli_connect($server, $username, $password, $dbname, $port);
-
-// Check if the connection was successful
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-
-// You can proceed with your database operations here
-
 ?>
